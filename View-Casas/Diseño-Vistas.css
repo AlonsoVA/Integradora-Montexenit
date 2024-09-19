@@ -24,28 +24,33 @@ p{
     background-image: linear-gradient(
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)),
-        url(img/imagen_2024-09-17_180901016.jpg);
+        url(img/descargar\ \(2\).jpg);
+    min-height: 70vh;
+    display: flex;
+    align-items: flex-end;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 70vh;
     display: flex;
-    align-items: center;
 }
-
 .menu{
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: center; /* Alinea verticalmente el contenido */
+    justify-content: space-between; /* Distribuye el logo a la izquierda y el menú a la derecha */
 }
 
 .logo{
     color: #FFFDFC;
     font-size: 25px;
+    margin-right: auto; /* Empuja el logo hacia el lado izquierdo */
+}
+.Logito {
+    max-width: 120px; /* Ajusta el tamaño del logo si es necesario */
 }
 
 .menu .navbar ul li{
@@ -132,6 +137,7 @@ p{
 
 .about-img img{
     width: 450px;
+    border-radius: 10px;
 }
 
 .h2{
@@ -299,6 +305,15 @@ form{
     text-align: center;
     font-size: 16px;
     color: #E0E0E0;
+}
+
+.Logito{
+    max-width: 120px; /* Ajusta el tamaño del logo */
+}
+
+.Compras{
+    padding: 10px;
+    padding-block: 10px;
 }
 
 @media(max-width:991px){
