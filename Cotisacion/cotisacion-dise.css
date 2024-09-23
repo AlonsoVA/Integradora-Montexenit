@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: "Playpen Sans", cursive;
+    background-color: #89839e;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 150px;
+    display: flex;
+}
+.menu{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    display: flex;
+    align-items: center; /* Alinea verticalmente el contenido */
+    justify-content: space-between; /* Distribuye el logo a la izquierda y el menú a la derecha */
+    padding: 10px 20px; /* Un poco de espacio en los bordes superior e izquierdo */
+}
+
+.logo{
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.Logito {
+    max-width: 120px; /* Tamaño de la imagen */
+    padding: 16px;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a { /* Cambiar tamaño de enlases etc*/
+    font-size: 20px;
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: #B7975B;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+    cursor: pointer;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content{
+    margin-top: 30px;
+}
+
+.header-txt{
+    width: 50%;
+    margin-top: auto;
+}
+.header-txt a{
+    border-radius: 9.5px;
+}
+
+/*Cotisascion texto*/
+.cotisacion h1{
+    text-align: center;
+}
+
+.coti-text {
+    background-color: #B7975B;
+    display: flex;
+    align-items: center; /* Centra verticalmente ambos elementos */
+    height: 500px; /* Altura del contenedor a toda la pantalla (opcional) */
+    width: auto;
+    padding: 20px; /* Espaciado interior en los lados izquierdo y derecho */
+    margin: 20px;
+    border-radius: 14px;
+    justify-content: space-around;
+}
+
+.coti-text p {
+    font-size: 18px;
+    color: #333;
+    max-width: 50%; /* Limita el ancho del texto a la mitad del contenedor */
+}
+
+.coti-text img {
+    width: 300px; 
+    height: 400px;
+    border-radius: 8px; 
+}

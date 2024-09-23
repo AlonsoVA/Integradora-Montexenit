@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Mapa-Fraccionamiento</title>
+        <link rel="stylesheet" href="cotisacion-dise.css">
+    </head>
+
+    <body>
+
+        <header class="header">
+
+            <div>
+                <a href="/Integradora-Montexenit/Home/Index.html" class="logo">
+                    <img src="Img/monte-xenit-logo.png" alt="Logo" class="Logito">
+                </a>
+            </div>
+
+            <div class="menu container">
+                <input type="checkbox" id="menu"/>
+                <label for="menu">
+                    <img src="#" class="menu-icono" alt="">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="/Integradora-Montexenit/Mapa/maps.html">Mapa</a></li>
+                        <li><a href="#">Cotisacion</a></li>
+                        <li><a href="#">Contactos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="cotisacion">
+            <h1>Bienvenido a cotisaciones Monte-Xenit II</h1>
+        </div>
+
+        <div class="coti-text">
+            <p>Aqui se realizara una cotizacion, lo cual necesitamos que nos ingrese su sueldo mensual
+            el cual nos ayudara a hacerle un filtrado con los tres modelos de casas que manejamos.
+            Esto lo dirigira a las casas que se acompleta de no ser asi, saldra un mensaje "Credito insuficiente"</p>
+            <img src="Img/descargar (1).jpg" alt="casita">
+        </div>
+
+        <div class="form">
+            <form id="sueldoForm">
+                <label for="sueldo">Introduce tu sueldo mensual:</label>
+                <input type="number" id="sueldo" name="sueldo" min="0" required>
+                <button type="submit" class="calculo">Calcular</button>
+            </form>
+        </div>
+
+        <div id="resultado"></div>
+
+        <script src="cotisacion.js"></script>
+
+    </body>
+</html>

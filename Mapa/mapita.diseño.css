@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 80%;
+    max-width: 1000px;
+    height: auto;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+map area {
+    cursor: pointer;
+}
+
+.thumbnail {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    visibility: hidden;
+    z-index: 1000;
+}
+
+/*Empieza lo nuevo */
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: "Playpen Sans", cursive;
+    background-color: #09080D;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 150px;
+    display: flex;
+}
+.menu{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    display: flex;
+    align-items: center; /* Alinea verticalmente el contenido */
+    justify-content: space-between; /* Distribuye el logo a la izquierda y el menú a la derecha */
+    padding: 10px 20px; /* Un poco de espacio en los bordes superior e izquierdo */
+}
+
+.logo{
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.Logito {
+    max-width: 120px; /* Tamaño de la imagen */
+    padding: 16px;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a { /* Cambiar tamaño de enlases etc*/
+    font-size: 20px;
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: #B7975B;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+    cursor: pointer;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content{
+    margin-top: 30px;
+}
+
+.header-txt{
+    width: 50%;
+    margin-top: auto;
+}
+.header-txt a{
+    border-radius: 9.5px;
+}

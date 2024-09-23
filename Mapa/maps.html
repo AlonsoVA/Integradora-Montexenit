@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Mapa-Fraccionamiento</title>
+        <link rel="stylesheet" href="mapita.diseño.css">
+    </head>
+
+    <body>
+
+        <header class="header">
+
+            <div>
+                <a href="Home/Index.html" class="logo">
+                    <img src="img/monte-xenit-logo.png" alt="Logo" class="Logito">
+                </a>
+            </div>
+
+            <div class="menu container">
+                <input type="checkbox" id="menu"/>
+                <label for="menu">
+                    <img src="#" class="menu-icono" alt="">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="/Integradora-Montexenit/Mapa/maps.html">Mapa</a></li>
+                        <li><a href="#">Cotisacion</a></li>
+                        <li><a href="#">Contactos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <h1>Mapa del fraccionamiento Xenit II</h1>
+        <img src="img/CamScanner 12-09-2024 17.11_page-0001.jpg" alt="fraccionamiento" usemap="#mapa" id="mapa-img">
+        <map name="mapa">
+            <area shape="rect" data-coords="806,944,776,961" href="/Integradora-Montexenit/View-Casas/Vista-Casas.html" title="Casa Disponible">
+            <area shape="rect" data-coords="734,919,763,952" href="" title="Parque perros">
+            <area shape="rect" data-coords="802,715,879,756" href="" title="Zona padel">
+            <area shape="poly" data-coords="825,840,907,834,940,1026,862,994" href="" title="Casas Vendidas" id="area1">
+            <img id="thumbnail" class="thumbnail" src="img/descargar.jpg" alt="Miniatura">
+        </map>
+        <script src="ajus-maps.js"></script>
+    </body>
+</html>
